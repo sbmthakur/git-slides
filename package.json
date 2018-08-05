@@ -1,0 +1,16 @@
+{
+  "name": "git-slides",
+  "version": "1.0.0",
+  "description": "Let's grok Git",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Thakur",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.4.2"
+  }
+}
